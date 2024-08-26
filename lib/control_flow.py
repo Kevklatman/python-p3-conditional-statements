@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
 
 def admin_login(username, password):
-   if username == "admin" and password == "12345":
+   if username == "admin" and password == "12345" or username == "ADMIN" and password == "12345":
     return ("Access granted")
    else:
-    return ("Access denied")
+      return ("Access denied")
+
 
 def hows_the_weather(temperature):
-    # your code here
+
     pass
 
 def fizzbuzz(num):
